@@ -1,9 +1,15 @@
 .custom-nav{
-	background-color: rgba(19, 171, 93, 0.8) !important;
+	background-color: rgba(23, 103, 206, 0.95) !important;
+	margin-bottom: 2px !important;
 }
 
-   .list{
-	color: #094F85 !important;
+.active > .list{
+	background-color: #a6a7a7c7 !important;
+}
+
+
+.list{
+	color: #ffff !important;
 	font-size: 18px !important;
 
 }
@@ -23,8 +29,8 @@ height: 432px;
 padding:0;
 margin: auto;
 background: rgba(210, 238, 255, 0.19);
-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-border-radius: 10px;
+/* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); */
+/* border-radius: 10px; */
 }
 
 .back-img{
@@ -43,10 +49,10 @@ margin-right: auto;
 .small-box{
 position: absolute;
 width: 1260px;
-height: 199.33px;
+height: 182px;
 left: 41px;
 top: 305px;
-background: rgba(0, 0, 0, 0.5);
+background: rgba(28, 59, 99, 0.26);
 }
 
 .small-box >h3{
@@ -74,15 +80,15 @@ li:hover a{
 left: 33.39px;
 font-family: calibri;
 font-weight:normal;
-font-size: 36px;
-color: #2D9226;
-margin-top: 30px;
+font-size: 18px;
+color: #313030;
+margin-top: 10px;
 margin-left:17px;
 }
 
 hr.newhr{
-	width:400px;
-	border-top: 0.5px solid rgba(51, 160, 44, 0.4);
+	width:186px;
+	border-top:0.5px solid rgb(7 9 10 / 44%);
 	margin: 0;
 
 }
@@ -94,7 +100,7 @@ footer {
   text-align: left;
   padding: 30px;
   background-color:rgba(186, 186, 186, 0.18);
-  color:rgba(19, 171, 93, 0.8);
+  color:rgba(37, 35, 35, 0.76);
   /*height: 40px;*/
 }
 
@@ -122,3 +128,55 @@ p.descri{
 	padding: 40px;
 
 }
+.headline> p{
+	font-size:20px;
+	color: #222;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.headline{
+	margin-left: 12px;
+}
+.positive{
+	margin-left: 10px;
+	color:#38C477;
+	font-weight: bold;
+}
+.Negative{
+	margin-left: 10px;
+	color:#F2543D;
+	font-weight: bold;
+}
+.Neutral{
+	margin-left: 10px;
+	color:#A4A4A4;
+	font-weight: bold;
+}
+.custom-dropdown{
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.nav-item >a{
+	color: #222 !important;
+	font-weight: 500;
+}
+.active{
+background-color:#E45306;
+
+}
+
+.active > a{
+	color: #fff !important;
+
+}
+.btn-secondary {
+    background-color: #1f81d6 !important;
+	border: 0.5px solid #1f81d6;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+  
